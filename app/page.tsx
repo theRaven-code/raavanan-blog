@@ -1,3 +1,4 @@
+import Feed from "@/components/Feed";
 import React from "react";
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
         Raavanan Blog is an open-source AI prompting tool for modern world to
         discover, create and share prompts
       </p>
+      <Feed />
     </section>
   );
 }
